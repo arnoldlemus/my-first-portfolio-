@@ -1,0 +1,71 @@
+
+/* ----- =header & nav ----- */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  padding: 0 25%;
+}
+
+nav a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+a:link { color: #815b15; }
+a:visited { color: #00ffbf; }
+a:hover { color: #0101ff; }
+a:active { color: #334036; }
+
+
+/* 
+body
+*/
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+	height: 200px;
+	background-color: #000000;
+}
+
+header h2 {
+	font-family: 'Times New Roman', Times, serif;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+}
+
+footer {
+	background-color: #000000;
+
+}
+
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+
+/* -------  Text ------- */
+
+h1, h2, h3 {
+  font-family: 'Times New Roman', Times, serif;
+	color: #000000;
+  text-align: center;
+  font-weight: 500;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+
+
+footer {
+	color: #fff;	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
+}
